@@ -16,7 +16,7 @@ const Home = () => {
           <li>I'm good in (MERN Full-Stack) Next Js, React Js, Node Js, Express Js and MongoDB Database.</li> 
         </p>
         <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          <a href="https://drive.google.com/file/d/1Eg5loAlY52KN0YHO4XU8Yn9vJXOaU0ax/view?usp=sharing" target='_blank'>Resume</a>
+          <a href="https://drive.google.com/file/d/1MYDMzsSpmCythXub472uimIl_RbJp2vI/view?usp=sharing" target='_blank'>Resume</a>
         </button>
       </div>
       <div>

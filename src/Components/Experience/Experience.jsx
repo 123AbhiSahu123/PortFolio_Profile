@@ -4,8 +4,8 @@ import { FaMaxcdn } from "react-icons/fa";
 import { SiRedis } from "react-icons/si";
 import { FaGoogle } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-import { RiNetflixFill } from "react-icons/ri";
-import { FaAmazon } from "react-icons/fa";
+// import { RiNetflixFill } from "react-icons/ri";
+// import { FaAmazon } from "react-icons/fa";
 import ducatImage from "../../assets/ducat.jpeg";
 import acmeImage from "../../assets/acme.png";
 
@@ -37,20 +37,20 @@ const Experience = () => {
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiMongodb color="#47A248" size={50} />
           </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiRedis color="#FF4438" size={50} />
-          </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          </span> 
+          {/* <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <RiNetflixFill color="#FF4438" size={50} />
-          </span>
-          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          </span>  */}
+          {/* <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaAmazon color="#FF9900" size={50} />
-          </span>
+          </span> */}
         </div>
         <div>
 
 
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+          {/* <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
             <FaGoogle color="#4285F4" size={50} />
             <span className="text-white">
               <h2 className="leading-tight">Software Engineer , Google</h2>
@@ -62,14 +62,14 @@ const Experience = () => {
                 <li>- Senior SDE-developer</li>
               </ul>
             </span>
-          </div>
+          </div> */}
 
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
             <img src={acmeImage} alt="acme" className="w-[50px] h-auto rounded" size={80} />
             <span className="text-white">
               <h2 className="leading-tight">Full Stack Developer, Acme Infolabs Pvt. Ltd.</h2>
               <p className="text-sm leading-tight font-thin">
-                Sept 17, 2025 - Current
+                Nov 18, 2024 - 25 Nov, 2025
               </p>
               <ul className="text-sm p-2">
                 <li>- Work as Web Developer.</li>
@@ -83,11 +83,11 @@ const Experience = () => {
             <span className="text-white">
               <h2 className="leading-tight">Full Stack Developer, Ducat Pvt. Ltd.</h2>
               <p className="text-sm leading-tight font-thin">
-                Aug 05, 2024 - Aug 08, 2025
+                July 01, 2024 - Dec 06, 2024
               </p>
               <ul className="text-sm p-2">
                 <li>- Learning real time code.</li>
-                <li>- Java Full-Stack</li>
+                <li>- Mern Full-Stack</li>
               </ul>
             </span>
           </div>
@@ -97,7 +97,7 @@ const Experience = () => {
             <span className="text-white">
               <h2 className="leading-tight">Crew , McDonald's</h2>
               <p className="text-sm leading-tight font-thin">
-                Aug 22, 2024 - Aug 2, 2025
+                Feb 22, 2024 - Nov 10, 2024
               </p>
               <ul className="text-sm p-2">
                 <li>- Work with Crew Member</li>
