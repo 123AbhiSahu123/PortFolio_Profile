@@ -1,8 +1,8 @@
-# React + Vite
+# Abhishek_PortFolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi, I’m Abhishek Sahu — a passionate Web Developer specialized in building modern, responsive and high-performance digital experiences. I work with #ReactJS, #NextJS, #JavaScript, #Bootstrap, #Java Developer and #TailwindCSS to craft clean UI and seamless user interfaces.
+I enjoy turning ideas into real, scalable products and continuously improving my skills through real-world projects and problem-solving.
 
-Hello Code-
+Personal Portfolio:- https://abhishekprofile.vercel.app/
+Welcome to Abhishek_Sahu Port_Folio😊.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
