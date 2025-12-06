@@ -43,7 +43,7 @@ const Projects = () => {
         <ProjectCard
           title="Express Blog✌"
           main="A dynamic blog platform built with Node.js and Express.js. Includes server-side rendering, dynamic pages, and Bootstrap-based responsive UI. Currently developing additional features and improving the workflow."
-          demoLink="https://express-js-blogs-page.vercel.app/"
+          demoLink="https://dynamicexpress.vercel.app/"
           codeLink="https://github.com/123AbhiSahu123/ExpressJs_BlogsPage"
         />
 
