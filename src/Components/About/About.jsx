@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/Male.png"
+import AboutImg from "../../assets/abhi.jpg"
 import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
@@ -11,19 +11,19 @@ const About = () => {
         <h2 className="text-2xl md:text-4xl font-bold">About</h2>
         <div className="md:flex flex-wrap flex-col md:flex-row items-center">
           <img className="md:h-80" src={AboutImg} alt="About img" />
-          
 
-          <ul>
+
+          <ul className="md:ml-20">
             <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
 
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                 Frontend Skills
+                  Frontend Skills
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                   HTML/CSS, BootStrap, Tailwind CSS, JavaScript, Typescript, React Js, Next Js,
-                  Json, Jquery, Ajax and ShadCN/UI.  
+                  Json, Jquery, Ajax and ShadCN/UI.
                 </p>
               </span>
             </div>
@@ -35,7 +35,7 @@ const About = () => {
                   Database And AI_Tools
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  MongoDB, MySQL, Git, GitHub, API, Material UI(User Interface), Copilot, 
+                  MongoDB, MySQL, Git, GitHub, API, Material UI(User Interface), Copilot,
                   Chat_GPT, Gemini and AI Pieces.
                 </p>
               </span>
@@ -48,12 +48,12 @@ const About = () => {
                   Backend Skills
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Node Js, Express Js, Core Java, Advance Java, Frameworks(Spring, SpringBoot, Hibernate). 
+                  Node Js, Express Js, Core Java, Advance Java, Frameworks(Spring, SpringBoot, Hibernate).
                 </p>
               </span>
             </div>
 
-             <div className="flex gap-3 py-4">
+            <div className="flex gap-3 py-4">
               <IoArrowForward size={30} className="mt-1" />
 
               <span className="w-96">
@@ -61,7 +61,7 @@ const About = () => {
                   Deployment
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Vercel, Netlify, Render, and AWS. 
+                  Vercel, Netlify, Render, and AWS.
                 </p>
               </span>
             </div>
