@@ -4,7 +4,7 @@ const Navbar = () => {
   const [menu, openMenu] = useState(false);
   const [showMenu, setShowmenu] = useState(true);
   return (
-    <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
+    <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20 sticky-top">
       <span className="text-xl font-bold tracking-wide">Portfolio</span>
 
       <ul

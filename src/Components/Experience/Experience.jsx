@@ -2,10 +2,7 @@ import React from "react";
 import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { FaMaxcdn } from "react-icons/fa";
 import { SiRedis } from "react-icons/si";
-import { FaGoogle } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
-// import { RiNetflixFill } from "react-icons/ri";
-// import { FaAmazon } from "react-icons/fa";
 import ducatImage from "../../assets/ducat.jpeg";
 import acmeImage from "../../assets/acme.png";
 
@@ -37,32 +34,11 @@ const Experience = () => {
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiMongodb color="#47A248" size={50} />
           </span>
-           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiRedis color="#FF4438" size={50} />
-          </span> 
-          {/* <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <RiNetflixFill color="#FF4438" size={50} />
-          </span>  */}
-          {/* <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <FaAmazon color="#FF9900" size={50} />
-          </span> */}
+          </span>
         </div>
         <div>
-
-
-          {/* <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <FaGoogle color="#4285F4" size={50} />
-            <span className="text-white">
-              <h2 className="leading-tight">Software Engineer , Google</h2>
-              <p className="text-sm leading-tight font-thin">
-                Sept 2023 - In Future
-              </p>
-              <ul className="text-sm p-2">
-                <li>- Work as Software Developer</li>
-                <li>- Senior SDE-developer</li>
-              </ul>
-            </span>
-          </div> */}
 
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
             <img src={acmeImage} alt="acme" className="w-[50px] h-auto rounded" size={80} />
@@ -103,11 +79,10 @@ const Experience = () => {
                 <li>- Work with Crew Member</li>
                 <li>- Billing of Customer Meals and give Services</li>
                 <li>- Part Time Work</li>
-
               </ul>
             </span>
           </div>
-
+          
         </div>
       </div>
     </div>
