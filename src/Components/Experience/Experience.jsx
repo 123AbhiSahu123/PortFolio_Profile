@@ -45,7 +45,7 @@ const Experience = () => {
             <span className="text-white">
               <h2 className="leading-tight">Full Stack Developer, Acme Infolabs Pvt. Ltd.</h2>
               <p className="text-sm leading-tight font-thin">
-                Nov 18, 2024 - 25 Nov, 2025
+                Nov 18, 2024 - 05 Dec, 2025
               </p>
               <ul className="text-sm p-2">
                 <li>- Work as Web Developer.</li>
