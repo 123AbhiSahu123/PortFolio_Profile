@@ -67,8 +67,9 @@ const About = () => {
                   Backend Skills
                 </h3>
                 <p className="text-sm sm:text-base text-gray-300">
-                  Node.js, Express.js, Core Java, Advanced Java,
-                  Spring, Spring Boot & Hibernate.
+                  {/* Node.js, Express.js, Core Java, Advanced Java,
+                  Spring, Spring Boot & Hibernate. */}
+                  Node.js, Express.js, PHP.
                 </p>
               </div>
             </div>
