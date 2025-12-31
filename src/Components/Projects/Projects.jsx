@@ -20,42 +20,42 @@ const Projects = () => {
             title="E_Kart 👀"
             main="A fully responsive e-commerce website built using React.js. Integrated product APIs, reusable components, and user-friendly UI similar to modern shopping platforms. Features include product listing, category filtering, and smooth page navigation."
             demoLink="https://e-kart-gamma.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/E-Kart/blob/main/src/App.css"
+            codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
           />
 
           <ProjectCard
             title="Todo List ✌"
             main="A simple yet efficient task-management application built with React.js + Vite. Allows users to add, update, and delete tasks with a clean UI. Designed to help users remember and organize daily activities efficiently."
-            demoLink="https://todo-list-zeta-eight.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/Todo_List"
+            demoLink="https://abhi-game.vercel.app/"
+            codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
           />
 
           <ProjectCard
             title="AI Tutorial 😊"
             main="A modern AI-focused blog website developed using Next.js. Includes light/dark mode using ShadCN/UI, clean article layout, and fast routing. Designed to help beginners learn concepts through blog-style content."
             demoLink="https://ai-assited-blog.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/ai-assited-blog/blob/master/components/Navbar.jsx"
+            codeLink="https://github.com/123AbhiSahu123/ai-assited-blog/tree/master/app"
           />
 
           <ProjectCard
             title="Indian Health Advisor 👀"
             main="A medical service-based website created using React.js and React Router DOM. Designed for patient service information, showcasing available treatments and service details in a simple, responsive layout."
             demoLink="https://indianhealthadvisor.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/Indian-Health-Advissor"
+            codeLink="https://github.com/123AbhiSahu123/Indian-Health-Advissor/tree/main/src"
           />
 
           <ProjectCard
             title="Express Blog ✌"
             main="A dynamic blog platform built with Node.js and Express.js. Includes server-side rendering, dynamic pages, and Bootstrap-based responsive UI."
             demoLink="https://dynamicexpress.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/ExpressJs_BlogsPage"
+            codeLink="https://github.com/123AbhiSahu123/ExpressJs_BlogsPage/tree/main/api"
           />
 
           <ProjectCard
             title="Ekamcure 😊"
             main="A large-scale multi-page website built with Next.js and Tailwind CSS. Includes ~20 pages, modern UI components, dynamic routing, and a language-switcher plugin."
             demoLink="https://ekamcure.vercel.app/"
-            codeLink="#"
+            codeLink="https://github.com/123AbhiSahu123/ekamcure/tree/main/app"
           />
         </div>
       </div>

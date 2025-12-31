@@ -9,32 +9,40 @@ const Home = () => {
                       flex flex-col-reverse md:flex-row 
                       items-center gap-10">
 
-        {/* LEFT CONTENT */}
-        <div className="w-full md:w-1/2 text-justify md:text-left">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">
+        {/* LEFT TEXT */}
+        <div className="w-full md:w-1/2 md:text-left px-2 sm:px-4">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug md:leading-tight">
             <TextChange />
           </h1>
 
-          <p className="text-sm md:text-2xl tracking-tight ">
+          <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl tracking-tight leading-relaxed">
             It is my Toon pic used in my official Portfolio Website 😊
             This website is built using <strong>Vite + React JS</strong>.
-            <li>1 year experience as a Web Developer.</li>
-            <li>Good knowledge of MERN Stack (Next.js, React, Node, Express, MongoDB)</li>
           </p>
+
+          <ul className="mt-4 space-y-2 text-sm sm:text-base md:text-lg lg:text-xl list-disc list-inside">
+            <li>
+              Full Stack Developer — 1 Year Experience (Including Internship)
+            </li>
+            <li>
+              Good knowledge of MERN Stack (Next.js, React, Node, Express, MongoDB)
+            </li>
+          </ul>
 
           <div className="mt-6">
             <a
-              href="https://drive.google.com/file/d/1MYDMzsSpmCythXub472uimIl_RbJp2vI/view?usp=sharing"
+              href="https://drive.google.com/file/d/1V_eNmy3DZ3yOh15Ilif8zjAzO--quLq6/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-[#465697] px-6 py-2.5 rounded-full 
-                         text-sm md:text-lg font-semibold
-                         hover:opacity-90 hover:scale-105 transition"
+              className="inline-block bg-[#465697] px-6 py-3 rounded-full 
+                 text-sm sm:text-base md:text-lg font-semibold
+                 hover:opacity-90 hover:scale-105 transition-transform duration-300"
             >
               Download Resume
             </a>
           </div>
         </div>
+
 
         {/* RIGHT IMAGE */}
         <div className="w-full md:w-1/2 flex justify-center">

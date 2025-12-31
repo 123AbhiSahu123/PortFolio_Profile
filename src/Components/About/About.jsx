@@ -50,11 +50,10 @@ const About = () => {
               <IoArrowForward size={26} className="mt-1 text-blue-400 shrink-0" />
               <div>
                 <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                  Database & AI Tools
+                  Database & Tools
                 </h3>
                 <p className="text-sm sm:text-base text-gray-300">
-                  MongoDB, MySQL, Git, GitHub, APIs, Material UI,
-                  Copilot, ChatGPT, Gemini & AI Pieces.
+                  MongoDB, MySQL, Git, GitHub, APIs, Material UI.
                 </p>
               </div>
             </div>
