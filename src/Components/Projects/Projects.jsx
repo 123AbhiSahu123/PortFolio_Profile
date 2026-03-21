@@ -17,17 +17,36 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           <ProjectCard
-            title="E_Kart 👀"
-            main="A fully responsive e-commerce website built using React.js. Integrated product APIs, reusable components, and user-friendly UI similar to modern shopping platforms. Features include product listing, category filtering, and smooth page navigation."
-            demoLink="https://e-kart-gamma.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
+            title="A_SIT 👀"
+            main={
+              <>
+                Designed and deployed a robust <strong className="font-bold text-indigo-600">WordPress</strong> website,
+                employing strategic plugin integrations to deliver a seamless, feature-rich interface with a focus on high-speed performance.
+              </>
+            }
+            demoLink="https://peru-squid-982385.hostingersite.com/"
+          // codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
           />
 
           <ProjectCard
-            title="Todo List ✌"
-            main="A simple yet efficient task-management application built with React.js + Vite. Allows users to add, update, and delete tasks with a clean UI. Designed to help users remember and organize daily activities efficiently."
-            demoLink="https://abhi-game.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
+            title="Ekamcure 😊"
+            main="A large-scale multi-page website built with Next.js and Tailwind CSS. Includes ~20 pages, modern UI components, dynamic routing, and a language-switcher plugin."
+            demoLink="https://ekamcure.vercel.app/"
+            codeLink="https://github.com/123AbhiSahu123/ekamcure/tree/main/app"
+          />
+
+          <ProjectCard
+            title="Coding Thunder ✌"
+            main="A dynamic blog platform built with Node.js and Express.js. Includes server-side rendering, dynamic pages, and Bootstrap-based responsive UI."
+            demoLink="https://coding-thunder.vercel.app/"
+            codeLink="https://github.com/123AbhiSahu123/Coding_Thunder/tree/main/api"
+          />
+
+          <ProjectCard
+            title="UI/UX Designing 👀"
+            main="A modern, user-centric web interface designed with a focus on seamless navigation and visual storytelling. By combining clean HTML5 structure, advanced CSS3 styling and interactive JavaScript, I created a responsive experience that prioritizes user engagement."
+            demoLink="https://blogs-opal-two.vercel.app/"
+            codeLink="https://github.com/123AbhiSahu123/Blogs/blob/main/index.html"
           />
 
           <ProjectCard
@@ -38,25 +57,13 @@ const Projects = () => {
           />
 
           <ProjectCard
-            title="Indian Health Advisor 👀"
-            main="A medical service-based website created using React.js and React Router DOM. Designed for patient service information, showcasing available treatments and service details in a simple, responsive layout."
-            demoLink="https://indianhealthadvisor.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/Indian-Health-Advissor/tree/main/src"
+            title="Todo List ✌"
+            main="A simple yet efficient task-management application built with React.js + Vite. Allows users to add, update, and delete tasks with a clean UI. Designed to help users remember and organize daily activities efficiently."
+            demoLink="https://abhi-game.vercel.app/"
+            codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
           />
 
-          <ProjectCard
-            title="Express Blog ✌"
-            main="A dynamic blog platform built with Node.js and Express.js. Includes server-side rendering, dynamic pages, and Bootstrap-based responsive UI."
-            demoLink="https://coding-thunder.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/Coding_Thunder/tree/main/api"
-          />
 
-          <ProjectCard
-            title="Ekamcure 😊"
-            main="A large-scale multi-page website built with Next.js and Tailwind CSS. Includes ~20 pages, modern UI components, dynamic routing, and a language-switcher plugin."
-            demoLink="https://ekamcure.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/ekamcure/tree/main/app"
-          />
         </div>
       </div>
     </section>
