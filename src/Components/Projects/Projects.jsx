@@ -24,7 +24,8 @@ const Projects = () => {
                 employing strategic plugin integrations to deliver a seamless, feature-rich interface with a focus on high-speed performance.
               </>
             }
-            demoLink="https://peru-squid-982385.hostingersite.com/"
+            demoLink="https://vastdevsolutions.com/"
+            // demoLink="https://peru-squid-982385.hostingersite.com/"
           // codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
           />
 
