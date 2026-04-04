@@ -25,7 +25,7 @@ const Home = () => {
               Web Developer — 8 Months of Experience (Including Internship)
             </li>
             <li>
-              Experienced in MERN Stack (Next.js, React, Node.js, Express.js, MongoDB), along with WordPress and PHP development.
+              Experienced in MERN Stack (Next.js, React, Node.js, Express.js, MongoDB), along with WordPress.
             </li>
           </ul>
 
