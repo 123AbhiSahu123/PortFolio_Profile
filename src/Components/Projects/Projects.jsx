@@ -17,14 +17,14 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           <ProjectCard
-            title="A_SIT 👀"
+            title="A To Z Medical Store 👀"
             main={
               <>
                 Designed and deployed a robust <strong className="font-bold text-indigo-600">WordPress</strong> website,
-                employing strategic plugin integrations to deliver a seamless, feature-rich interface with a focus on high-speed performance.
+                An A to Z Medical Store is a retail pharmacy or chemist shop that aims to provide a "one-stop-shop" experience for healthcare needs.
               </>
             }
-            demoLink="https://vastdevsolutions.com/"
+            demoLink="https://orange-turkey-193778.hostingersite.com/"
             // demoLink="https://peru-squid-982385.hostingersite.com/"
           // codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
           />

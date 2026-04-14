@@ -31,7 +31,7 @@ const Home = () => {
 
           <div className="mt-6">
             <a
-              href="https://drive.google.com/file/d/1ahvaTWWHvSNSVb1RRiPU3icL7RkBoawE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1vk-WK2TIRnh5U0Ti_MfoUX4iJY7D1hTx/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#465697] px-6 py-3 rounded-full 
