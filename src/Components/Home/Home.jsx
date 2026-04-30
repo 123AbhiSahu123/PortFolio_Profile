@@ -22,7 +22,7 @@ const Home = () => {
 
           <ul className="mt-4 space-y-2 text-sm sm:text-base md:text-lg lg:text-xl list-disc list-inside">
             <li>
-              Web Developer — 8 Months of Experience (Including Internship)
+              Full Stack Web Developer — 8 Months of Experience (Including Internship)
             </li>
             <li>
               Experienced in MERN Stack (Next.js, React, Node.js, Express.js, MongoDB), along with WordPress.
@@ -31,7 +31,7 @@ const Home = () => {
 
           <div className="mt-6">
             <a
-              href="https://drive.google.com/file/d/1vk-WK2TIRnh5U0Ti_MfoUX4iJY7D1hTx/view?usp=sharing"
+              href="https://drive.google.com/file/d/1dPLabF7NmYalsFH7ECutT43Feqh_Mc6a/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#465697] px-6 py-3 rounded-full 
