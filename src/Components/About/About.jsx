@@ -53,7 +53,7 @@ const About = () => {
                   Database & Tools
                 </h3>
                 <p className="text-sm sm:text-base text-gray-300">
-                  MongoDB, MySQL, Git, GitHub, APIs, Material UI.
+                  MongoDB, MySQL, Postgres SQL, Radis, Firebase, Postman, Git, GitHub, APIs, Material UI.
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ const About = () => {
                 <p className="text-sm sm:text-base text-gray-300">
                   {/* Node.js, Express.js, Core Java, Advanced Java,
                   Spring, Spring Boot & Hibernate. */}
-                  Node.js, Express.js.
+                  Node.js, Express.js, API Integration & Make API.
                 </p>
               </div>
             </div>
@@ -81,7 +81,7 @@ const About = () => {
                   Deployment
                 </h3>
                 <p className="text-sm sm:text-base text-gray-300">
-                  Vercel, Netlify, Render & AWS.
+                  Vercel, Netlify, Docker, Render & AWS.
                 </p>
               </div>
             </div>
