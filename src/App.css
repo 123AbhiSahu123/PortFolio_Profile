@@ -129,3 +129,7 @@
 .skill-hover.vercel::before{
   background:#1572B6;
 }
+
+.skill-hover.wp::before{
+  background:#82c2e2;
+}

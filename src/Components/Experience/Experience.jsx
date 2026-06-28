@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import { FaCss3, FaHtml5, FaBootstrap, FaJs, FaReact, FaMaxcdn } from "react-icons/fa";  // font awesome
+import { FaCss3, FaHtml5, FaBootstrap, FaJs, FaReact, FaMaxcdn, FaWordpress } from "react-icons/fa";  // font awesome
 import {
   SiTailwindcss, SiNodedotjs, SiExpress, SiPostgresql, SiMongodb,
   SiMysql, SiPostman, SiRedis, SiDocker, SiNextdotjs,
@@ -115,6 +115,11 @@ const Experience = () => {
             <span className="skill-hover vercel p-3 bg-zinc-950 flex items-center rounded-2xl" data-name="Vercel">
               <span className="skill-icon">
                 <SiVercel color="#fff" size={50} />
+              </span>
+            </span>
+            <span className="skill-hover wp p-3 bg-zinc-950 flex items-center rounded-2xl" data-name="WordPress">
+              <span className="skill-icon">
+                <FaWordpress color="#21759B" size={50} />
               </span>
             </span>
           </div>
