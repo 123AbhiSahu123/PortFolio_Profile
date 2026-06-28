@@ -1,0 +1,131 @@
+/* Experience section Css */
+.skill-hover {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.skill-hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--hover-color, #E34F26);
+  transform: translateY(100%);
+  transition: transform 0.5s ease;
+  z-index: 0;
+}
+
+.skill-hover:hover::before {
+  transform: translateY(0);
+}
+
+/* Icon */
+.skill-hover .skill-icon {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s;
+}
+
+.skill-hover:hover .skill-icon {
+  transform: rotateY(360deg) translateY(-10px);
+  color: white;
+}
+
+/* Skill Name */
+.skill-hover::after {
+  content: attr(data-name);
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%) translateY(20px);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all .35s ease;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+/* Icon background color each icon */
+.skill-hover:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.skill-hover.html::before{
+  background:#e27f63;
+}
+
+.skill-hover.css::before{
+  background:#5ba3d6;
+}
+
+.skill-hover.bootstrap::before{
+  background:#9579c0;
+}
+
+.skill-hover.tailwind::before{
+  background:#5fc3d4;
+}
+
+.skill-hover.javascript::before{
+  background:#cfc789;
+}
+
+.skill-hover.node::before{
+  background:#8dd37c;
+}
+
+.skill-hover.react::before{
+  background:#9ac4cf;
+}
+
+.skill-hover.next::before{
+  background:#1572B6;
+}
+
+.skill-hover.express::before{
+  background:#1572B6;
+}
+
+.skill-hover.mongodb::before{
+  background:#6bc46d;
+}
+
+.skill-hover.postgres::before{
+  background:#7895eb;
+}
+
+.skill-hover.mysql::before{
+  background:#86aeca;
+}
+
+.skill-hover.redis::before{
+  background:#f5afaa;
+}
+
+.skill-hover.docker::before{
+  background:#66b1eb;
+}
+
+.skill-hover.postman::before{
+  background:#fa9c7a;
+}
+
+.skill-hover.git::before{
+  background:#ec837c;
+}
+
+.skill-hover.github::before{
+  background:#1572B6;
+}
+
+.skill-hover.render::before{
+  background:#1572B6;
+}
+
+.skill-hover.vercel::before{
+  background:#1572B6;
+}

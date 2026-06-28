@@ -24,7 +24,7 @@ const Projects = () => {
                 An A to Z Medical Store is a retail pharmacy or chemist shop that aims to provide a "one-stop-shop" experience for healthcare needs.
               </>
             }
-            demoLink="https://orange-turkey-193778.hostingersite.com/"
+            demoLink="https://atozmedicalstores.store/"
             // demoLink="https://peru-squid-982385.hostingersite.com/"
           // codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
           />
