@@ -25,8 +25,6 @@ const Projects = () => {
               </>
             }
             demoLink="https://atozmedicalstores.store/"
-            // demoLink="https://peru-squid-982385.hostingersite.com/"
-          // codeLink="https://github.com/123AbhiSahu123/Todo_List/tree/main/src"
           />
 
           <ProjectCard
@@ -44,10 +42,17 @@ const Projects = () => {
           />
 
           <ProjectCard
-            title="UI/UX Designing 👀"
-            main="A modern, user-centric web interface designed with a focus on seamless navigation and visual storytelling. By combining clean HTML5 structure, advanced CSS3 styling and interactive JavaScript, I created a responsive experience that prioritizes user engagement."
-            demoLink="https://blogs-opal-two.vercel.app/"
-            codeLink="https://github.com/123AbhiSahu123/Blogs/blob/main/index.html"
+            title="Student Dashboard 👀"
+            main={
+              <>
+                Student Dashboard is a full-stack web application developed using React.js, Node.js, Express.js, 
+                PostgreSQL, and Tailwind CSS. The frontend is deployed on <strong className="font-bold text-indigo-600">
+                Vercel, </strong> while the backend APIs are hosted on <strong className="font-bold text-indigo-600">
+                Render, </strong> working together in single integrated application.
+              </>
+            }
+            demoLink="https://student-frontend-alpha-lyart.vercel.app/"
+            codeLink="https://github.com/123AbhiSahu123/Student-Frontend"
           />
 
           <ProjectCard
