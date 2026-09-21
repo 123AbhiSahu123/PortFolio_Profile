@@ -51,7 +51,7 @@ const Projects = () => {
                 Render, </strong> working together in single integrated application.
               </>
             }
-            demoLink="https://student-frontend-alpha-lyart.vercel.app/"
+            demoLink="https://adminstudentdashboard.vercel.app/"
             codeLink="https://github.com/123AbhiSahu123/Student-Frontend"
           />
 
