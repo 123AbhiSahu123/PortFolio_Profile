@@ -4,7 +4,7 @@ import TextChange from "../TextChange";
 
 const Home = () => {
   return (
-    <section className="w-full min-h-screen bg-[#0f172a] text-white">
+    <section id="Home" className="w-full min-h-screen bg-[#0f172a] text-white">
       <div className="max-w-7xl mx-auto px-6 py-12 md:py-20 
                       flex flex-col-reverse md:flex-row 
                       items-center gap-10">
@@ -18,7 +18,7 @@ const Home = () => {
           <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl tracking-tight leading-relaxed">
             It is my Toon Avatar used on my official Portfolio Website 😊.
             This website is built using <strong>Vite + React JS</strong>.
-          </p> 
+          </p>
 
           <ul className="mt-4 space-y-2 text-sm sm:text-base md:text-lg lg:text-xl list-disc list-inside">
             <li>

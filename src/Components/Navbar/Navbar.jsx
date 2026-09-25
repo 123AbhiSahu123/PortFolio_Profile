@@ -4,8 +4,16 @@ import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
+  const scrollToSection = (id) => {
+    document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+    });
+
+    setMenu(false);
+  };
+
   return (
-    <nav className="flex flex-wrap justify-between md:items-center text-white bg-[#0f172a]/80 backdrop-blur-md px-10 pt-6 md:px-20 py-5 sm-py-3 fixed top-0 left-0 w-full z-50">
+    <nav className="flex flex-wrap justify-between md:items-center text-white bg-[#0f172a]/80 backdrop-blur-md px-10 pt-6 md:px-10 py-5 sm-py-3 fixed top-0 left-0 w-full z-50">
       <span className="text-xl font-bold tracking-wide">Portfolio</span>
 
       <ul
@@ -18,37 +26,37 @@ const Navbar = () => {
         `}
       >
 
-        <a href="#Home" onClick={() => setMenu(false)}>
+        <a onClick={() => scrollToSection("Home")}>
           <li className="scroll-mt-24 text-md transition-all duration-300 p-1 md:p-0">
             Home
           </li>
         </a>
 
-        <a href="#About" onClick={() => setMenu(false)}>
+        <a onClick={() => scrollToSection("About")}>
           <li className="scroll-mt-24 text-md transition-all duration-300 p-1 md:p-0">
             About
           </li>
         </a>
 
-        <a href="#Experience" onClick={() => setMenu(false)}>
+        <a onClick={() => scrollToSection("Experience")}>
           <li className="scroll-mt-24 text-md transition-all duration-300 p-1 md:p-0">
             Experience
           </li>
         </a>
 
-        <a href="#Projects" onClick={() => setMenu(false)}>
+        <a onClick={() => scrollToSection("Projects")}>
           <li className="scroll-mt-24 text-md transition-all duration-300 p-1 md:p-0">
             Projects
           </li>
         </a>
 
-        <a href="#Achievements" onClick={() => setMenu(false)}>
+        <a onClick={() => scrollToSection("Achievements")}>
           <li className="scroll-mt-24 text-md transition-all duration-300 p-1 md:p-0">
             Achievements
           </li>
         </a>
 
-        <a href="#Footer" onClick={() => setMenu(false)}>
+        <a onClick={() => scrollToSection("Footer")}>
           <li className="scroll-mt-24 text-md transition-all duration-300 p-1 md:p-0">
             Contact Me
           </li>

@@ -10,13 +10,14 @@ function App() {
   return (
     <div className="bg-[#171d32] h-auto w-full overflow-hidden">
       <Navbar />
+
       <Home />
       <About />
       <Experience />
       <Projects />
       <Achievements />
-      <Footer />
 
+      <Footer />
     </div>
   );
 }

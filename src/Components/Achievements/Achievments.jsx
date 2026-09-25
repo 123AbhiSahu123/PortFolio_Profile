@@ -11,7 +11,7 @@ import {
 const certificates = [
     {
         image: "/certificate/acmeLetter.jpg",
-        title: "Intership Experience Letter",
+        title: "Internship Experience Letter",
         issuer: " Issued by Acme Infolabs Pvt. Ltd.",
     },
     {
@@ -185,7 +185,7 @@ const Achievements = () => {
                 </div>
 
                 {/* ================= DOTS ================= */}
-                <div className="mt-8 flex justify-center gap-2">
+                <div className="hidden mt-8 lg:flex justify-center gap-2">
                     {certificates.map((_, index) => (
                         <button
                             key={index}
