@@ -124,7 +124,7 @@ const Achievements = () => {
                     {/* LEFT BUTTON */}
                     <button
                         onClick={prevSlide}
-                        className="absolute -left-3 top-[35%] z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-cyan-400/30 bg-[#0b2038]/90 text-cyan-300 shadow-lg shadow-cyan-500/10 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:border-cyan-400 hover:bg-cyan-400 hover:text-[#0f172a] md:-left-6"
+                        className="hidden xl:flex absolute -left-3 top-[35%] z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-cyan-400/30 bg-[#0b2038]/90 text-cyan-300 shadow-lg shadow-cyan-500/10 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:border-cyan-400 hover:bg-cyan-400 hover:text-[#0f172a] md:-left-6"
                         aria-label="Previous certificate"
                     >
                         <RiArrowLeftLine size={22} />
@@ -133,7 +133,7 @@ const Achievements = () => {
                     {/* RIGHT BUTTON */}
                     <button
                         onClick={nextSlide}
-                        className="absolute -right-3 top-[35%] z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-cyan-400/30 bg-[#0b2038]/90 text-cyan-300 shadow-lg shadow-cyan-500/10 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:border-cyan-400 hover:bg-cyan-400 hover:text-[#0f172a] md:-right-6"
+                        className="hidden xl:flex absolute -right-3 top-[35%] z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-cyan-400/30 bg-[#0b2038]/90 text-cyan-300 shadow-lg shadow-cyan-500/10 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:border-cyan-400 hover:bg-cyan-400 hover:text-[#0f172a] md:-right-6"
                         aria-label="Next certificate"
                     >
                         <RiArrowRightLine size={22} />
@@ -149,7 +149,7 @@ const Achievements = () => {
                             return (
                                 <div
                                     key={index}
-                                    className={`group rounded-xl border border-cyan-400/20 bg-[#081a2e]/70 p-2 shadow-[0_0_20px_rgba(0,200,255,0.04)] backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(0,200,255,0.15)] ${index === activeIndex
+                                    className={`group rounded-xl border-[3px] border-cyan-400/20 bg-[#081a2e]/70 p-2 shadow-[0_0_20px_rgba(0,200,255,0.04)] backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(0,200,255,0.15)] ${index === activeIndex
                                             ? "border-cyan-400/40"
                                             : ""
                                         }`}
