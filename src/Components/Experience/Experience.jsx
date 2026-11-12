@@ -129,9 +129,9 @@ const Experience = () => {
             <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
               <img src={droptyImage} alt="dropty" className="w-[50px] h-auto rounded" size={80} />
               <span className="text-white">
-                <h2 className="leading-tight">Mern Stack Developer, Dropty Infotech Pvt. Ltd.</h2>
+                <h2 className="leading-tight">MERN Stack Developer, Dropty Infotech Pvt. Ltd.</h2>
                 <p className="text-sm leading-tight font-thin">
-                  March 2026 - Till Now
+                  May 2026 - November 2026
                 </p>
                 <ul className="text-sm p-2">
                   <li>- Industry Experience and working as a Backend Developer. </li>
@@ -143,12 +143,12 @@ const Experience = () => {
             <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
               <img src={acmeImage} alt="acme" className="w-[50px] h-auto rounded" size={80} />
               <span className="text-white">
-                <h2 className="leading-tight">Full Stack Developer Intern, Acme Infolabs Pvt. Ltd.</h2>
+                <h2 className="leading-tight">Web Developer Intern, Acme Infolabs Pvt. Ltd.</h2>
                 <p className="text-sm leading-tight font-thin">
-                  Internship and Industry Experience
+                  Internship and Industry Experience ( 3 Months )
                 </p>
                 <ul className="text-sm p-2">
-                  <li>- Worked as a Web Developer on real-world projects. </li>
+                  <li>- Worked as a Frontend Developer on real-world projects. </li>
                   <li>- Collaborated with team members to deliver project requirements. </li>
                 </ul>
               </span>
@@ -157,7 +157,7 @@ const Experience = () => {
             <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
               <img src={ducatImage} alt="ducat" className="w-[50px] h-auto rounded" size={50} />
               <span className="text-white">
-                <h2 className="leading-tight">Full Stack Developer, Ducat Pvt. Ltd.</h2>
+                <h2 className="leading-tight">Full Stack Developer, DUCAT IT Training.</h2>
                 <p className="text-sm leading-tight font-thin">
                   Aug 05, 2024 - Aug 08, 2025
                 </p>
